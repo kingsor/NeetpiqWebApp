@@ -19,7 +19,7 @@ namespace NeetpiqWebApp.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Serving Index Page ...");
         }
     }
 }

@@ -8,18 +8,18 @@ using Microsoft.Extensions.Logging;
 
 namespace NeetpiqWebApp.Pages
 {
-    public class PrivacyModel : PageModel
+    public class AboutModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<AboutModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public AboutModel(ILogger<AboutModel> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
-            _logger.LogInformation("Serving Privacy Page ...");
+            _logger.LogInformation("Serving About Page ...");
         }
     }
 }
